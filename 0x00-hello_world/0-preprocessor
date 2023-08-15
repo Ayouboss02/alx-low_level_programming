@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+c_file="$CFILE"
+
+
+gcc -E "$c_file" -o c
+
